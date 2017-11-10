@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{B7FED9A9-40DD-4B54-9CF6-2E545891E939}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HardwareChatXamarin/Pops/MyPopups.xaml.cs">
+    <Files>
+      <File FileName="HardwareChatXamarin/View/RoomPage.xaml" Line="1" Column="1" />
+      <File FileName="HardwareChatXamarin/View/RoomPage.xaml.cs" Line="26" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="HardwareChatXamarin/Pops/MyPopups.xaml" Line="11" Column="50" />
+      <File FileName="HardwareChatXamarin/Pops/MyPopups.xaml.cs" Line="12" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HardwareChatXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7AF14034-F8B3-4B7C-B125-5F74B3F769F6" />
+  <MultiItemStartupConfigurations />
+</Properties>

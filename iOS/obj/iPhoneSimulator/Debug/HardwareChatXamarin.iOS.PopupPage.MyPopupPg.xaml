@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages:Popup xmlns="http://xamarin.com/schemas/2014/forms"
+	             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="HardwareChatXamarin.MyPopupPg">
+
+	<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+	<Entry  x:Name="_username" Placeholder="Kullanıcı adınız"/>
+	<Button Text="Log in !" Clicked="Handle_Clicked"/>
+	</StackLayout>
+	
+</pages:Popup>

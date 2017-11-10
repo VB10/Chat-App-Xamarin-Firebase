@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HardwareChatXamarin.RoomPage">
+
+	<ContentPage.ToolbarItems>
+	<ToolbarItem Text="+" Clicked="Plus_Clicked"/>
+	<ToolbarItem Text="?" Clicked="Info_Clicked"/>
+
+	</ContentPage.ToolbarItems>
+
+	<ContentPage.Content>
+
+		<ListView ItemsSource="{Binding .}" SeparatorVisibility="None"  x:Name="_lstx" RowHeight="120"
+			IsPullToRefreshEnabled="true"
+			Refreshing="Handle_Refreshing"
+			>
+		<ListView.ItemTemplate>
+		<DataTemplate>
+
+		<ViewCell>
+
+		<StackLayout BackgroundColor="Blue" Margin="10">
+		<Label Text="{Binding Name}" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="20"/>
+		</StackLayout>
+		</ViewCell>
+
+		</DataTemplate>
+		</ListView.ItemTemplate>
+		</ListView>
+
+		
+	</ContentPage.Content>
+</ContentPage>

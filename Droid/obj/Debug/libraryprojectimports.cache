@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars>/Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/__library_projects__/FormsViewGroup/library_project_imports/formsviewgroup.jar</Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>/Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/__library_projects__/Rg.Plugins.Popup.Droid/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/__library_projects__/Rg.Plugins.Popup.Platform/library_project_imports/res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Rg.Plugins.Popup.Droid/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Rg.Plugins.Popup.Platform/library_project_imports/assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>/Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/__library_projects__/Rg.Plugins.Popup.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/__library_projects__/Rg.Plugins.Popup.Platform.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>
