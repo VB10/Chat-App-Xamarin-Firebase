@@ -1,14 +1,13 @@
-﻿<Properties StartupConfiguration="{B7FED9A9-40DD-4B54-9CF6-2E545891E939}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HardwareChatXamarin/Pops/MyPopups.xaml.cs">
+﻿<Properties StartupConfiguration="{F37FB684-DB35-4FBC-884D-00CD8D3CE00D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HardwareChatXamarin/Database/DBFire.cs">
     <Files>
-      <File FileName="HardwareChatXamarin/View/RoomPage.xaml" Line="1" Column="1" />
-      <File FileName="HardwareChatXamarin/View/RoomPage.xaml.cs" Line="26" Column="1" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="HardwareChatXamarin/Pops/MyPopups.xaml" Line="11" Column="50" />
-      <File FileName="HardwareChatXamarin/Pops/MyPopups.xaml.cs" Line="12" Column="1" />
+      <File FileName="HardwareChatXamarin/View/ChatPage.xaml" Line="1" Column="1" />
+      <File FileName="HardwareChatXamarin/Database/DBFire.cs" Line="46" Column="1" />
+      <File FileName="HardwareChatXamarin/View/ChatPage.xaml.cs" Line="33" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.HardwareChatXamarin.Droid PreferredExecutionTarget="Android.vblesson" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using Firebase.Xamarin.Database;
@@ -39,6 +40,21 @@ namespace HardwareChatXamarin
 
 		}
 
-	
+
+		public async Task saveMessage(Chat _ch, string _room)
+		{
+			await fbClient.Child("ChatApp/" + _room + "/Message")
+					.PostAsync(_ch);
+		}
+
+		public ObservableCollection<Chat> subChat(string _roomKEY)
+		{
+			
+			return fbClient.Child("ChatApp/"+_roomKEY+"/Message")
+				           .AsObservable<Chat>()
+				           .AsObservableCollection<Chat>();
+		}
+
+
 	}
 }

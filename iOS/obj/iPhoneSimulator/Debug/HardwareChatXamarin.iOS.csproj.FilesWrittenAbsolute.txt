@@ -34,3 +34,5 @@
 /Users/vb/Projects/HardwareChatXamarin/iOS/bin/iPhoneSimulator/Debug/Rg.Plugins.Popup.Platform.dll
 /Users/vb/Projects/HardwareChatXamarin/iOS/obj/iPhoneSimulator/Debug/HardwareChatXamarin.iOS.Pops.MyPopups.xaml
 /Users/vb/Projects/HardwareChatXamarin/iOS/obj/iPhoneSimulator/Debug/HardwareChatXamarin.iOS..Users.vb.Projects.HardwareChatXamarin.HardwareChatXamarin.Pops.MyPopups.xaml.g.cs
+/Users/vb/Projects/HardwareChatXamarin/iOS/obj/iPhoneSimulator/Debug/HardwareChatXamarin.iOS.View.ChatPage.xaml
+/Users/vb/Projects/HardwareChatXamarin/iOS/obj/iPhoneSimulator/Debug/HardwareChatXamarin.iOS..Users.vb.Projects.HardwareChatXamarin.HardwareChatXamarin.View.ChatPage.xaml.g.cs

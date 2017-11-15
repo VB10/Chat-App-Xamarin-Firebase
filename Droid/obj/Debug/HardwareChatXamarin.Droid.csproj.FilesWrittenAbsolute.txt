@@ -51,3 +51,5 @@
 /Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/uploadflags.txt
 /Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/HardwareChatXamarin.Droid.dll
 /Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/HardwareChatXamarin.Droid.pdb
+/Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/HardwareChatXamarin.Droid.View.ChatPage.xaml
+/Users/vb/Projects/HardwareChatXamarin/Droid/obj/Debug/HardwareChatXamarin.Droid..Users.vb.Projects.HardwareChatXamarin.HardwareChatXamarin.View.ChatPage.xaml.g.cs

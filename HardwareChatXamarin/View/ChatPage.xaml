@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="HardwareChatXamarin.ChatPage">
+	<ContentPage.Content>
+
+		<Grid>
+
+		<Grid.RowDefinitions>
+		<RowDefinition Height="4*"/>
+		<RowDefinition Height="*"/>
+			</Grid.RowDefinitions>
+
+			
+		<ListView Grid.Row="0" ItemsSource="{Binding .}" x:Name="_lstChat"
+				SeparatorVisibility="None">
+		<ListView.ItemTemplate>
+		<DataTemplate>
+						
+		<TextCell Text="{Binding UserName}" Detail="{Binding UserMessage}" DetailColor="Fuchsia"/>
+						
+		</DataTemplate>
+		</ListView.ItemTemplate>
+		</ListView>
+
+		<Grid Grid.Row="1" RowSpacing="5">
+
+		<Grid.ColumnDefinitions>
+		<ColumnDefinition Width="3*"/>
+		<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+
+				
+		<Entry Placeholder="Write Message .." Grid.Column="0" x:Name="_etMessage"/>
+		<Button Text="Send!" Grid.Column="1" Clicked="Handle_Clicked"/>
+		</Grid>
+
+
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

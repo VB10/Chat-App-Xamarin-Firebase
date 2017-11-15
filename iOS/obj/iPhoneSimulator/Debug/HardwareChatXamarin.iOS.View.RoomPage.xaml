@@ -9,8 +9,9 @@
 
 	<ContentPage.Content>
 
-		<ListView ItemsSource="{Binding .}" SeparatorVisibility="None"  x:Name="_lstx" RowHeight="120"
+		<ListView ItemsSource="{Binding .}" SeparatorVisibility="None"  x:Name="_lstx" RowHeight="120" 
 			IsPullToRefreshEnabled="true"
+			ItemSelected="Handle_ItemSelected"
 			Refreshing="Handle_Refreshing"
 			>
 		<ListView.ItemTemplate>

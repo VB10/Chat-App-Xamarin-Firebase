@@ -43,5 +43,24 @@ namespace HardwareChatXamarin
 			Navigation.PushAsync(new AddRoomPage());
 			
 		}
+
+		void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+		{
+
+
+			if (_lstx.SelectedItem!=null)
+			{
+			var selectRoom = (Room)_lstx.SelectedItem;
+
+				Navigation.PushAsync(new ChatPage());
+				//NAVİGATON !!! 
+				MessagingCenter.Send<RoomPage, Room>(this, "RoomProp", selectRoom);
+
+
+
+				
+			}
+
+		}
 	}
 }
